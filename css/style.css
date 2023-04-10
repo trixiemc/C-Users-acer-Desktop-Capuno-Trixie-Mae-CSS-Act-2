@@ -97,3 +97,39 @@ div:nth-child(4){
 #blog a:hover {
     color: orangered;
 }
+
+#services {
+    margin-top: 10%;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: 25vw;
+}
+
+#services h2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+#services ul,li {
+    display: inline;
+    padding: 30px 40px;
+    font-size: 20px;
+}
+
+li {
+    margin-right: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+li:first-child {
+    background-color: orangered;
+}
+
+li:hover {
+    box-shadow: -1px -1px 0px -3px rgba(64, 64, 64, 0.75);
+    -webkit-box-shadow: -10px -1px 8px 1px rgba(64, 64, 64, 0.75);
+    -moz-box-shadow: -1px -1px 8px 1px rgba(64, 64, 64, 0.75);
+}
